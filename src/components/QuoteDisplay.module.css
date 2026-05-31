@@ -1,0 +1,27 @@
+.quote {
+  margin: 0 auto 2.5rem;
+  max-width: 560px;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid rgba(255, 255, 255, 0.4);
+  text-align: left;
+  animation: fadeIn 0.6s ease;
+}
+
+.quote p {
+  margin: 0;
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

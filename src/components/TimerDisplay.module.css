@@ -1,0 +1,33 @@
+.display {
+  margin-bottom: 2rem;
+}
+
+.time {
+  font-size: clamp(4rem, 16vw, 7rem);
+  font-weight: 200;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  color: #fff;
+  display: block;
+}
+
+.finished .time {
+  color: #ffd580;
+}
+
+.message {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #ffd580;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

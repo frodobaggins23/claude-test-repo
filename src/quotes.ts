@@ -1,0 +1,17 @@
+export const quotes: string[] = [
+  'Peace comes from within. Do not seek it without.',
+  'The mind is everything. What you think you become.',
+  'Three things cannot be long hidden: the sun, the moon, and the truth.',
+  'Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.',
+  'In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go.',
+  'You only lose what you cling to.',
+  'If you are quiet enough, you will hear the flow of the universe. You will feel its rhythm. Go with this flow.',
+  'Every morning we are born again. What we do today is what matters most.',
+  'Holding onto anger is like drinking poison and expecting the other person to die.',
+  'The trouble is, you think you have time.',
+  'When you realise how perfect everything is, you will tilt your head back and laugh at the sky.',
+  'No matter how hard the past, you can always begin again.',
+  'Chaos is inherent in all compounded things. Strive on with diligence.',
+  'If we could see the miracle of a single flower clearly, our whole life would change.',
+  'Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened.',
+]

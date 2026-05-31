@@ -1,0 +1,29 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a2a4a 0%, #2d3a5f 45%, #3b2d6e 100%);
+  padding: 2rem 1rem;
+  font-family:
+    'Inter',
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 580px;
+  text-align: center;
+  padding: 3rem 2rem 2.5rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 2.5rem;
+}
