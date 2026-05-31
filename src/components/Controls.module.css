@@ -1,0 +1,52 @@
+.row {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.65rem 2rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    transform 0.1s,
+    opacity 0.2s,
+    background 0.2s;
+  border: none;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.primary {
+  background: rgba(255, 255, 255, 0.92);
+  color: #2d3a5f;
+}
+
+.primary:hover {
+  background: #fff;
+}
+
+.secondary {
+  background: rgba(255, 213, 128, 0.85);
+  color: #3a2a00;
+}
+
+.secondary:hover {
+  background: rgba(255, 213, 128, 1);
+}
+
+.ghost {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
